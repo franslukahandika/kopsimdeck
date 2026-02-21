@@ -28,7 +28,6 @@ import {
   Send
 } from 'lucide-react';
 import { APIResponse, DeckData, DeckAssets } from './types';
-import { generateSectorImage, editSectorImage } from './services/geminiService';
 import pptxgen from 'pptxgenjs';
 import html2pdf from 'html2pdf.js';
 

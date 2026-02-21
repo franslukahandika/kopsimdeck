@@ -1,0 +1,7 @@
+echo {^
+  "functions": {^
+    "api/**/*.js": {^
+      "runtime": "nodejs20.x"^
+    }^
+  }^
+} > vercel.json
