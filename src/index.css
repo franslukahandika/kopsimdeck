@@ -131,3 +131,16 @@
   }
 }
 
+/* =========================
+   PDF SAFE MODE (NO OKLCH)
+========================= */
+.pdf-mode * {
+  color: #111827 !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+.pdf-mode {
+  width: 1200px !important;
+}

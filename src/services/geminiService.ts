@@ -1,6 +1,10 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+
+console.log("API KEY:", apiKey);
+
+const ai = new GoogleGenAI({ apiKey });
 
 export const generateSectorImage = async (prompt: string): Promise<string | null> => {
   try {
